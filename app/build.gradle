@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.example.notesapp'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.notesapp"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -36,4 +36,21 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //Room for database
+    implementation "androidx.room:room-runtime:2.5.0"
+    annotationProcessor "androidx.room:room-compiler:2.5.0"
+
+    //recyclerview
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    //scalable size units
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //material design
+    implementation "com.google.android.material:material:1.7.0"
+
+    //rounded image view
+    implementation "com.makeramen:roundedimageview:2.3.0"
 }
