@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Notes App</string>
+    <string name="app_name">Diary Note</string>
     <string name="my_notes">My Notes</string>
     <string name="search_notes">Search Notes</string>
     <string name="note_title">Note Title</string>
     <string name="note_subtitle">Note subtitle</string>
     <string name="type_note_here">Type Note Here...</string>
-    <string name="miscellaneous">Miscellaneous</string>
+    <string name="miscellaneous">Action Bar</string>
     <string name="pick_color">Pick Color</string>
     <string name="add_image">Add Image</string>
     <string name="add_url">Add URL</string>
